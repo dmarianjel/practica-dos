@@ -1,0 +1,34 @@
+body{
+	text-align: center;
+	width: 100%;
+	padding-bottom: 100px;
+}
+#cont{
+	margin-left: 1em;
+}
+#cont div{
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #e5e3f2;
+	background-color: #fff;
+}
+.heart, .trash{
+	margin: 1em;
+	float:right;
+}
+.strike-out{
+	text-decoration: line-through;
+	color: #1da1f2;
+}
+.trash:hover{
+	color: #1da1f2;
+	cursor: pointer;
+}
+.red {
+	color: #fc1e26;
+	cursor: pointer;
+}
+p{
+	display: inline-block;	
+	margin-left: 0.5em;
+}
